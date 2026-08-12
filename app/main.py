@@ -40,11 +40,11 @@ def health_check():
         "status": "healthy"
     }
 
-@app.get("/version")
+@app.get("/ramana")
 def version():
     return {
         "version": "1.0.1",
-        "message": "New version deployed successfully!"
+        "message": "HI Ramana, How are you.  💕"
     }
 
 @app.get("/users")
